@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import 'colors';
+@import 'layout';
+@import 'spacing';  
+@import 'typography';
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 100%;
+  position: relative;
+
+  background-color: $white-normal;
+
+  &::-webkit-scrollbar{
+    padding-right: 2px;
+    width: 8px;
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background: $primary-light;
+  }
+}
+
+.border{
+  border: 1px solid red;
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+.relative{
+  position: relative;
+}
+
+svg,img{
+  width: 100%;  
+}
+
+@import 'menu';
+@import 'icons';
+@import 'buttons';
+

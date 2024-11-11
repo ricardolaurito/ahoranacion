@@ -1,0 +1,2364 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+/* line 1, ../Sites Wave Digitall/Ahora Nación/css/sass/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 45, ../Sites Wave Digitall/Ahora Nación/css/sass/_colors.scss */
+.color-white {
+  color: #E8EBF0;
+}
+
+/* line 49, ../Sites Wave Digitall/Ahora Nación/css/sass/_colors.scss */
+.color-primary {
+  color: #df2027;
+}
+
+/* line 53, ../Sites Wave Digitall/Ahora Nación/css/sass/_colors.scss */
+.color-secondary-dark {
+  color: #1A3373;
+}
+
+/* line 57, ../Sites Wave Digitall/Ahora Nación/css/sass/_colors.scss */
+.color-gradient {
+  background: linear-gradient(224.78deg, #ff3f45 8.12%, #ad1318 92.21%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 64, ../Sites Wave Digitall/Ahora Nación/css/sass/_colors.scss */
+.color-gray {
+  color: #717274;
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_colors.scss */
+.color-red {
+  color: #F03D3D;
+}
+
+/* line 72, ../Sites Wave Digitall/Ahora Nación/css/sass/_colors.scss */
+.color-green {
+  color: #0BB07B;
+}
+
+/* line 76, ../Sites Wave Digitall/Ahora Nación/css/sass/_colors.scss */
+.color-yellow {
+  color: #FFCE52;
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-1 {
+  width: calc(8.33333% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-1 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-2 {
+  width: calc(16.66667% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-2 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-3 {
+  width: calc(25% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-3 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-4 {
+  width: calc(33.33333% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-4 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-5 {
+  width: calc(41.66667% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-5 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-6 {
+  width: calc(50% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-6 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-7 {
+  width: calc(58.33333% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-7 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-8 {
+  width: calc(66.66667% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-8 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-9 {
+  width: calc(75% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-9 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-10 {
+  width: calc(83.33333% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-10 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-11 {
+  width: calc(91.66667% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-11 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-12 {
+  width: calc(100% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 68, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .grid-12 {
+    width: calc(100% - 32px);
+    float: none;
+  }
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-1 {
+  width: calc(8.33333% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-2 {
+  width: calc(16.66667% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-3 {
+  width: calc(25% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-4 {
+  width: calc(33.33333% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-5 {
+  width: calc(41.66667% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-6 {
+  width: calc(50% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-7 {
+  width: calc(58.33333% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-8 {
+  width: calc(66.66667% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-9 {
+  width: calc(75% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-10 {
+  width: calc(83.33333% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-11 {
+  width: calc(91.66667% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 83, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.grid-nobreak-12 {
+  width: calc(100% - 32px);
+  margin: 16px;
+  padding: 16px 0px;
+  float: left;
+}
+
+/* line 94, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 128px 24px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;*/
+  overflow: hidden;
+}
+
+/* line 108, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 94, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .container {
+    flex-direction: column;
+    padding: 96px 16px;
+  }
+}
+
+/* line 121, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.hero {
+  height: 70vh;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 125, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+  .disappear {
+    display: none;
+  }
+}
+
+/* line 134, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* line 141, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.h-100 {
+  height: 100vh;
+}
+
+/* line 145, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.h-100p {
+  height: 100%;
+}
+
+/* line 150, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex {
+  display: flex;
+}
+
+/* line 154, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-start-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* line 161, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-end-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* line 168, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-start-column {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* line 175, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 181, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 189, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* line 201, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-column {
+  flex-direction: column;
+}
+
+/* line 206, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.relative {
+  position: relative;
+}
+
+/* line 210, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* line 214, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-item-1 {
+  flex: 1 1 360px;
+}
+
+/* line 218, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-item-2 {
+  flex: 2 1 360px;
+}
+
+/* line 222, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-item-3 {
+  flex: 3 1 360px;
+}
+
+/* line 226, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-item-4 {
+  flex: 4 1 360px;
+}
+
+/* line 230, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-item-5 {
+  flex: 5 1 360px;
+}
+
+/* line 234, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+/* line 239, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.w-auto {
+  width: auto;
+}
+
+/* line 242, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.h-auto {
+  height: auto !important;
+}
+
+/* line 245, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.w-100 {
+  width: 100%;
+}
+
+/* line 248, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.w-75 {
+  width: 75%;
+}
+
+/* line 251, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.w-50 {
+  width: 50%;
+}
+
+/* line 254, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.w-25 {
+  width: 25%;
+}
+
+/* line 259, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.bb-black {
+  border-bottom: 1px solid #275589;
+}
+
+/* line 263, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.bt-black {
+  border-top: 1px solid #275589;
+}
+
+/* line 267, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.bl-black {
+  border-left: 1px solid #275589;
+}
+
+/* line 271, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.br-black {
+  border-right: 1px solid #275589;
+}
+
+/* line 276, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.bg-gray {
+  background-color: #275589;
+}
+
+/* line 280, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.bb-gray {
+  border-bottom: 2px solid #275589;
+}
+
+/* line 284, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.bt-gray {
+  border-top: 2px solid #275589;
+}
+
+/* line 288, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.bl-gray {
+  border-left: 2px solid #275589;
+}
+
+/* line 292, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.br-gray {
+  border-right: 2px solid #275589;
+}
+
+/* line 297, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+/* line 304, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.profile-big {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+/* line 311, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.profile-img {
+  border-radius: 50%;
+  border: 2px solid #BF181E;
+}
+
+/* line 316, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.card {
+  border: 1px solid #275589;
+  border-radius: 4px;
+  background-color: #c9dffa;
+  transition: .2s ease;
+}
+
+/* line 323, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.card:hover {
+  background-color: #b7d2f5;
+}
+
+/* line 330, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.thumb img {
+  transform: scale(1.05);
+  transition: .5s ease;
+}
+
+/* line 336, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.thumb:hover img {
+  transform: scale(1.1);
+}
+
+/* line 342, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.img-banner {
+  width: 100%;
+  max-height: 420px;
+  background-color: #0F141F;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 353, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.img-banner img {
+  object-fit: cover;
+  transition: .7s ease;
+}
+
+/* line 360, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.img-banner:hover img {
+  transform: scale(1.025);
+}
+
+/* line 366, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.bg-section {
+  background-color: #1A3373;
+}
+
+/* line 370, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.card-danger {
+  border: 2px solid #F03D3D;
+  border-radius: 4px;
+  background-color: rgba(240, 61, 61, 0.2);
+}
+
+/* line 377, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.card-success {
+  border: 2px solid #0BB07B;
+  border-radius: 4px;
+  background-color: rgba(11, 176, 123, 0.2);
+}
+
+/* line 384, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.card-warning {
+  border: 2px solid #FFCE52;
+  border-radius: 4px;
+  background-color: rgba(255, 206, 82, 0.2);
+}
+
+/* line 391, ../Sites Wave Digitall/Ahora Nación/css/sass/_layout.scss */
+.card-info {
+  border: 2px solid rgba(27, 105, 210, 0.7);
+  border-radius: 4px;
+  background-color: rgba(27, 105, 210, 0.9);
+}
+
+/* line 12, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.s-0 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-110 {
+  margin-top: 110px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 17, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+  .mt-110 {
+    margin-top: 0px;
+  }
+}
+
+/* line 25, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-80 {
+  margin-top: 88px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 25, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+  .mt-80 {
+    margin-top: 64px;
+  }
+}
+
+/* line 33, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-40 {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 33, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+  .ml-40 {
+    margin-left: 4px;
+  }
+}
+
+/* line 41, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.space-220 {
+  padding: 220px 24px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 41, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+  .space-220 {
+    padding: 96px 16px;
+  }
+}
+
+/* line 54, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-0 {
+  margin: 0 !important;
+}
+
+/* line 57, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-1 {
+  margin: 8px !important;
+}
+
+/* line 60, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-2 {
+  margin: 16px !important;
+}
+
+/* line 63, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-3 {
+  margin: 24px !important;
+}
+
+/* line 66, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-4 {
+  margin: 32px !important;
+}
+
+/* line 69, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-5 {
+  margin: 48px !important;
+}
+
+/* line 72, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-6 {
+  margin: 64px !important;
+}
+
+/* line 75, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-7 {
+  margin: 72px !important;
+}
+
+/* line 78, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-8 {
+  margin: 96px !important;
+}
+
+/* line 81, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.m-9 {
+  margin: 128px !important;
+}
+
+/* line 87, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+/* line 90, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-1 {
+  margin-top: 8px !important;
+}
+
+/* line 93, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-2 {
+  margin-top: 16px !important;
+}
+
+/* line 96, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-3 {
+  margin-top: 24px !important;
+}
+
+/* line 99, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-4 {
+  margin-top: 32px !important;
+}
+
+/* line 102, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-5 {
+  margin-top: 48px !important;
+}
+
+/* line 105, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-6 {
+  margin-top: 64px !important;
+}
+
+/* line 108, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-7 {
+  margin-top: 72px !important;
+}
+
+/* line 111, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-8 {
+  margin-top: 96px !important;
+}
+
+/* line 114, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mt-9 {
+  margin-top: 128px !important;
+}
+
+/* line 119, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+/* line 122, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-1 {
+  margin-left: 8px !important;
+}
+
+/* line 125, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-2 {
+  margin-left: 16px !important;
+}
+
+/* line 128, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-3 {
+  margin-left: 24px !important;
+}
+
+/* line 131, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-4 {
+  margin-left: 32px !important;
+}
+
+/* line 134, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-5 {
+  margin-left: 48px !important;
+}
+
+/* line 137, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-6 {
+  margin-left: 64px !important;
+}
+
+/* line 140, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-7 {
+  margin-left: 72px !important;
+}
+
+/* line 143, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-8 {
+  margin-left: 96px !important;
+}
+
+/* line 146, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.ml-9 {
+  margin-left: 128px !important;
+}
+
+/* line 151, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+/* line 154, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-1 {
+  margin-right: 8px !important;
+}
+
+/* line 157, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-2 {
+  margin-right: 16px !important;
+}
+
+/* line 160, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-3 {
+  margin-right: 24px !important;
+}
+
+/* line 163, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-4 {
+  margin-right: 32px !important;
+}
+
+/* line 166, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-5 {
+  margin-right: 48px !important;
+}
+
+/* line 169, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-6 {
+  margin-right: 64px !important;
+}
+
+/* line 172, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-7 {
+  margin-right: 72px !important;
+}
+
+/* line 175, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-8 {
+  margin-right: 96px !important;
+}
+
+/* line 178, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mr-9 {
+  margin-right: 128px !important;
+}
+
+/* line 183, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+/* line 186, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-1 {
+  margin-bottom: 8px !important;
+}
+
+/* line 189, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-2 {
+  margin-bottom: 16px !important;
+}
+
+/* line 192, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-3 {
+  margin-bottom: 24px !important;
+}
+
+/* line 195, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-4 {
+  margin-bottom: 32px !important;
+}
+
+/* line 198, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-5 {
+  margin-bottom: 48px !important;
+}
+
+/* line 201, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-6 {
+  margin-bottom: 64px !important;
+}
+
+/* line 204, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-7 {
+  margin-bottom: 72px !important;
+}
+
+/* line 207, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-8 {
+  margin-bottom: 96px !important;
+}
+
+/* line 210, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mb-9 {
+  margin-bottom: 128px !important;
+}
+
+/* line 215, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* line 219, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-1 {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+
+/* line 223, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-2 {
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+}
+
+/* line 227, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-3 {
+  margin-left: 24px !important;
+  margin-right: 24px !important;
+}
+
+/* line 231, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-4 {
+  margin-left: 32px !important;
+  margin-right: 32px !important;
+}
+
+/* line 235, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-5 {
+  margin-left: 48px !important;
+  margin-right: 48px !important;
+}
+
+/* line 239, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-6 {
+  margin-left: 64px !important;
+  margin-right: 64px !important;
+}
+
+/* line 243, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-7 {
+  margin-left: 72px !important;
+  margin-right: 72px !important;
+}
+
+/* line 247, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-8 {
+  margin-left: 96px !important;
+  margin-right: 96px !important;
+}
+
+/* line 251, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.mx-9 {
+  margin-left: 128px !important;
+  margin-right: 128px !important;
+}
+
+/* line 257, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* line 261, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-1 {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+/* line 265, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-2 {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+/* line 269, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-3 {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+/* line 273, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-4 {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
+/* line 277, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-5 {
+  margin-top: 48px !important;
+  margin-bottom: 48px !important;
+}
+
+/* line 281, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-6 {
+  margin-top: 64px !important;
+  margin-bottom: 64px !important;
+}
+
+/* line 285, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-7 {
+  margin-top: 72px !important;
+  margin-bottom: 72px !important;
+}
+
+/* line 289, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-8 {
+  margin-top: 96px !important;
+  margin-bottom: 96px !important;
+}
+
+/* line 293, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.my-9 {
+  margin-top: 128px !important;
+  margin-bottom: 128px !important;
+}
+
+/* line 299, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-0 {
+  padding: 0 !important;
+}
+
+/* line 302, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-1 {
+  padding: 8px !important;
+}
+
+/* line 305, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-2 {
+  padding: 16px !important;
+}
+
+/* line 308, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-3 {
+  padding: 24px !important;
+}
+
+/* line 311, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-4 {
+  padding: 32px !important;
+}
+
+/* line 314, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-5 {
+  padding: 48px !important;
+}
+
+/* line 317, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-6 {
+  padding: 64px !important;
+}
+
+/* line 320, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-7 {
+  padding: 72px !important;
+}
+
+/* line 323, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-8 {
+  padding: 96px !important;
+}
+
+/* line 326, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.p-9 {
+  padding: 128px !important;
+}
+
+/* line 331, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+/* line 334, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-1 {
+  padding-top: 8px !important;
+}
+
+/* line 337, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-2 {
+  padding-top: 16px !important;
+}
+
+/* line 340, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-3 {
+  padding-top: 24px !important;
+}
+
+/* line 343, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-4 {
+  padding-top: 32px !important;
+}
+
+/* line 346, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-5 {
+  padding-top: 48px !important;
+}
+
+/* line 349, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-6 {
+  padding-top: 64px !important;
+}
+
+/* line 352, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-7 {
+  padding-top: 72px !important;
+}
+
+/* line 355, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-8 {
+  padding-top: 96px !important;
+}
+
+/* line 358, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pt-9 {
+  padding-top: 128px !important;
+}
+
+/* line 364, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+/* line 367, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-1 {
+  padding-left: 8px !important;
+}
+
+/* line 370, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-2 {
+  padding-left: 16px !important;
+}
+
+/* line 373, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-3 {
+  padding-left: 24px !important;
+}
+
+/* line 376, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-4 {
+  padding-left: 32px !important;
+}
+
+/* line 379, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-5 {
+  padding-left: 48px !important;
+}
+
+/* line 382, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-6 {
+  padding-left: 64px !important;
+}
+
+/* line 385, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-7 {
+  padding-left: 72px !important;
+}
+
+/* line 388, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-8 {
+  padding-left: 96px !important;
+}
+
+/* line 391, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pl-9 {
+  padding-left: 128px !important;
+}
+
+/* line 396, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+/* line 399, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-1 {
+  padding-right: 8px !important;
+}
+
+/* line 402, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-2 {
+  padding-right: 16px !important;
+}
+
+/* line 405, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-3 {
+  padding-right: 24px !important;
+}
+
+/* line 408, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-4 {
+  padding-right: 32px !important;
+}
+
+/* line 411, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-5 {
+  padding-right: 48px !important;
+}
+
+/* line 414, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-6 {
+  padding-right: 64px !important;
+}
+
+/* line 417, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-7 {
+  padding-right: 72px !important;
+}
+
+/* line 420, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-8 {
+  padding-right: 96px !important;
+}
+
+/* line 423, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pr-9 {
+  padding-right: 128px !important;
+}
+
+/* line 428, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+/* line 431, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-1 {
+  padding-bottom: 8px !important;
+}
+
+/* line 434, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-2 {
+  padding-bottom: 16px !important;
+}
+
+/* line 437, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-3 {
+  padding-bottom: 24px !important;
+}
+
+/* line 440, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-4 {
+  padding-bottom: 32px !important;
+}
+
+/* line 443, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-5 {
+  padding-bottom: 48px !important;
+}
+
+/* line 446, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-6 {
+  padding-bottom: 64px !important;
+}
+
+/* line 449, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-7 {
+  padding-bottom: 72px !important;
+}
+
+/* line 452, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-8 {
+  padding-bottom: 96px !important;
+}
+
+/* line 455, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.pb-9 {
+  padding-bottom: 128px !important;
+}
+
+/* line 459, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* line 463, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-1 {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+/* line 467, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-2 {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+/* line 471, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-3 {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+/* line 475, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-4 {
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}
+
+/* line 479, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-5 {
+  padding-left: 48px !important;
+  padding-right: 48px !important;
+}
+
+/* line 483, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-6 {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+/* line 487, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-7 {
+  padding-left: 72px !important;
+  padding-right: 72px !important;
+}
+
+/* line 491, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-8 {
+  padding-left: 96px !important;
+  padding-right: 96px !important;
+}
+
+/* line 495, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.px-9 {
+  padding-left: 128px !important;
+  padding-right: 128px !important;
+}
+
+/* line 501, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* line 505, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-1 {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+/* line 509, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-2 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+/* line 513, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-3 {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+
+/* line 517, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-4 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+/* line 521, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-5 {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+
+/* line 525, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-6 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+/* line 529, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-7 {
+  padding-top: 72px !important;
+  padding-bottom: 72px !important;
+}
+
+/* line 533, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-8 {
+  padding-top: 96px !important;
+  padding-bottom: 96px !important;
+}
+
+/* line 537, ../Sites Wave Digitall/Ahora Nación/css/sass/_spacing.scss */
+.py-9 {
+  padding-top: 128px !important;
+  padding-bottom: 128px !important;
+}
+
+/* line 192, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.h0 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 120px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 192, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .h0 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 88px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 192, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .h0 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+}
+
+/* line 202, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+h1 {
+  color: #1A3373;
+  z-index: 5;
+  font-family: 'Rubik', sans-serif;
+  font-size: 80px;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 202, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 56px;
+    line-height: 110%;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 202, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+}
+
+/* line 214, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+h2 {
+  color: #1A3373;
+  font-family: 'Rubik', sans-serif;
+  font-size: 64px;
+  line-height: 110%;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 214, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 214, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 300;
+  }
+}
+
+/* line 225, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+h3 {
+  color: #1A3373;
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 225, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 225, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    line-height: 130%;
+    font-weight: 300;
+  }
+}
+
+/* line 236, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+h4 {
+  color: #1A3373;
+  font-family: 'Rubik', sans-serif;
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 236, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    line-height: 130%;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 236, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 300;
+  }
+}
+
+/* line 247, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+h5 {
+  color: #1A3373;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  line-height: 140%;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 247, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 300;
+  }
+}
+
+/* line 255, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+h6 {
+  color: #1A3373;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 255, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  h6 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 100;
+  }
+}
+
+/* line 264, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.h7 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 264, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .h7 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 100;
+  }
+}
+
+/* line 272, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+p {
+  letter-spacing: 0px;
+  color: #717274;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 272, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 272, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+
+/* line 284, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 289, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.p1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 289, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .p1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 289, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .p1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+}
+
+/* line 299, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.p2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 299, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .p2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+
+/* line 306, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.p3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 306, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .p3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+
+/* line 313, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.p4 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 313, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .p4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 200;
+  }
+}
+
+/* line 320, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.p5 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 320, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .p5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 200;
+  }
+}
+
+/* line 328, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.p-title {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 328, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .p-title {
+    font-size: 16px;
+  }
+}
+
+/* line 336, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.bold {
+  font-weight: bold;
+  color: #D8DBE3;
+}
+
+/* line 341, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+span {
+  position: relative;
+  display: inline-block;
+  color: #BF181E;
+}
+
+/* line 348, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.letter-h1 {
+  color: #E8EBF0;
+  letter-spacing: 1px;
+  text-transform: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 80px;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 348, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .letter-h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 56px;
+    line-height: 110%;
+    font-weight: 500;
+  }
+}
+
+/* line 358, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+strong {
+  color: #06090F;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 358, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  strong {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+  }
+}
+
+/* line 366, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+b {
+  color: #2B2B2C;
+}
+
+/* line 370, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 374, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 378, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 384, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.h-xl {
+  color: #E8EBF0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 120px;
+  line-height: 120%;
+  font-weight: 500;
+  font-size: 240px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 384, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .h-xl {
+    font-family: 'Rubik', sans-serif;
+    font-size: 88px;
+    line-height: 120%;
+    font-weight: 500;
+    font-size: 144px;
+  }
+}
+
+/* line 396, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+.h-l {
+  color: #E8EBF0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 120px;
+  line-height: 120%;
+  font-weight: 500;
+  font-size: 144px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 396, ../Sites Wave Digitall/Ahora Nación/css/sass/_typography.scss */
+  .h-l {
+    font-family: 'Rubik', sans-serif;
+    font-size: 88px;
+    line-height: 120%;
+    font-weight: 500;
+    font-size: 96px;
+  }
+}
+
+/* line 12, ../Sites Wave Digitall/Ahora Nación/css/sass/style.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 16, ../Sites Wave Digitall/Ahora Nación/css/sass/style.scss */
+body {
+  width: 100%;
+  position: relative;
+  background-color: #E8EBF0;
+}
+
+/* line 22, ../Sites Wave Digitall/Ahora Nación/css/sass/style.scss */
+body::-webkit-scrollbar {
+  padding-right: 2px;
+  width: 8px;
+  background: transparent;
+}
+
+/* line 28, ../Sites Wave Digitall/Ahora Nación/css/sass/style.scss */
+body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #df2027;
+}
+
+/* line 34, ../Sites Wave Digitall/Ahora Nación/css/sass/style.scss */
+.border {
+  border: 1px solid red;
+}
+
+/* line 38, ../Sites Wave Digitall/Ahora Nación/css/sass/style.scss */
+.hidden {
+  overflow: hidden;
+}
+
+/* line 42, ../Sites Wave Digitall/Ahora Nación/css/sass/style.scss */
+.relative {
+  position: relative;
+}
+
+/* line 46, ../Sites Wave Digitall/Ahora Nación/css/sass/style.scss */
+svg, img {
+  width: 100%;
+}
+
+/* line 1, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A3373;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #151B26;
+  position: fixed;
+  z-index: 990;
+}
+
+/* line 19, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 25, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+/* line 30, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.menu li {
+  margin-left: 24px;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 25, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /* line 39, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+  .search {
+    display: none;
+  }
+}
+
+/* line 45, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.bx {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: none;
+  position: relative;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 45, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+  .bx {
+    display: block;
+  }
+}
+
+/* line 59, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.bx::after {
+  content: '';
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  width: 70%;
+  height: 2px;
+  display: block;
+  transition: .5s ease;
+  background-color: #D8DBE3;
+}
+
+/* line 76, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.bx::before {
+  content: '';
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  width: 70%;
+  height: 2px;
+  display: block;
+  transition: .5s ease;
+  background-color: #D8DBE3;
+}
+
+/* line 94, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.bx.activebx {
+  position: relative;
+}
+
+/* line 98, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.bx.activebx::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(135deg);
+  border-radius: 2px;
+  width: 70%;
+  height: 2px;
+  display: block;
+  background-color: #D8DBE3;
+}
+
+/* line 114, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.bx.activebx::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-315deg);
+  border-radius: 2px;
+  width: 70%;
+  height: 2px;
+  display: block;
+  background-color: #D8DBE3;
+}
+
+/* line 131, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.cta-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 131, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+  .cta-mobile {
+    display: block;
+  }
+}
+
+/* line 138, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.cta-desktop {
+  display: block;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 138, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+  .cta-desktop {
+    display: none;
+  }
+}
+
+/* line 145, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.logo {
+  max-width: 64px;
+  min-width: 48px;
+}
+
+/* line 150, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.menu-mobile {
+  width: 100%;
+  height: 100vh;
+  transition: .7s ease;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: rgba(26, 51, 115, 0.7);
+  backdrop-filter: blur(5px);
+  z-index: 900;
+}
+
+/* line 164, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.menu-mobile .nav-mobile {
+  margin-top: 80px;
+}
+
+/* line 168, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.menu-mobile li {
+  border-bottom: 1px solid #151B26;
+}
+
+/* line 171, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.menu-mobile li .link-menu-mobile {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 24px 16px 24px 16px;
+  transition: .5s ease;
+}
+
+/* line 178, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.menu-mobile li .link-menu-mobile:hover {
+  background-color: #1A3373;
+  padding: 24px 16px 24px 28px;
+}
+
+/* line 186, ../Sites Wave Digitall/Ahora Nación/css/sass/_menu.scss */
+.menu-mobile.showmenu {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .7s ease;
+}
+
+/* line 1, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+.icon {
+  max-width: 64px;
+  transition: .5s ease;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 1, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+  .icon {
+    max-width: 56px;
+  }
+}
+
+/* line 9, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+.icon:hover {
+  transform: translate(0, -4px, 0);
+}
+
+/* line 14, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+.icon-s {
+  max-width: 36px;
+  transition: .5s ease;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 14, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+  .icon-s {
+    max-width: 32px;
+  }
+}
+
+/* line 22, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+.icon-s:hover {
+  transform: translate(0, -4px, 0);
+}
+
+/* line 27, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+.icon-l {
+  max-width: 120px;
+  transition: .5s ease;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 27, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+  .icon-l {
+    max-width: 96px;
+  }
+}
+
+/* line 36, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+.icon-xl {
+  max-width: 172px;
+  transition: .5s ease;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 36, ../Sites Wave Digitall/Ahora Nación/css/sass/_icons.scss */
+  .icon-xl {
+    max-width: 144px;
+  }
+}
+
+/* line 1, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+.btn {
+  display: inline-block;
+  color: #F7F9FC;
+  transition: .6s ease;
+  padding: 8px 24px;
+  text-align: center;
+  border: 0;
+  background: linear-gradient(224.78deg, #ff3f45 8.12%, #ad1318 92.21%);
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+  position: relative;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 1, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+  .btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 200;
+    padding: 16px 24px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  /* line 1, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+  .btn {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 200;
+    padding: 16px 24px;
+  }
+}
+
+/* line 24, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+.btn:hover {
+  opacity: .8;
+}
+
+/* line 29, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+a {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+  text-decoration: none;
+  color: #F7F9FC;
+  transition: 0.5s ease;
+}
+
+/* line 35, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+a:hover {
+  opacity: 0.8;
+}
+
+/* line 40, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+.link-title {
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+/* line 45, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+.link-title:hover {
+  text-decoration: underline;
+}
+
+/* line 50, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+.link {
+  color: #BF181E;
+}
+
+/* line 54, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+.link-footer {
+  padding: 8px 8px 8px 8px;
+  transition: .7s ease;
+}
+
+/* line 59, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+.link-footer:hover {
+  padding: 8px 8px 8px 16px;
+}
+
+/* line 64, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+input {
+  accent-color: #BF181E;
+  border: 1px solid #275589;
+}
+
+/* line 70, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+input, select, option, textarea {
+  padding: 10px 12px;
+  background-color: #E8EBF0;
+  border: 0;
+  border-radius: 4px;
+  color: #151B26;
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+}
+
+/* line 81, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+input[type=date], select, option {
+  height: 44px;
+}
+
+/* line 85, ../Sites Wave Digitall/Ahora Nación/css/sass/_buttons.scss */
+.btn-search {
+  cursor: pointer;
+  height: 48px;
+  width: 56px;
+  background-image: url("../../svg/icon-search.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  transform: translate3d(-6px, 0, 0);
+  background-color: #E8EBF0;
+  border: 0;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=style.css.map */

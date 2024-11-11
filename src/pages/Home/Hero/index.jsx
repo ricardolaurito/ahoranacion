@@ -1,7 +1,7 @@
 
 
 
-import BlogHome from '../../../svg/blog.svg';
+import BlogHome from '../../../svg/favicon.png';
 import {Link} from 'react-router-dom';
 
 const Hero = () => {

@@ -1,5 +1,5 @@
 
-import Logo from '../../svg/blog-logo.svg';
+import Logo from '../../svg/blog-favicon.png';
 import { Link, useNavigate } from 'react-router-dom';
 import Context from 'pages/Context';
 import { useState, useContext, useEffect } from 'react';

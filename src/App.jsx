@@ -2,9 +2,10 @@ import Paths from './paths';
 
 import { useEffect } from 'react';
 
-import Provider from 'pages/Provider';
+import Provider from './pages/Provider';
 
 import ScriptTag from 'react-script-tag';
+
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
     useEffect(() => {
       const script = document.createElement('script');
   
-      script.src = "./js/script.js";
+      script.src = "./js/script.jsx";
       script.async = true;
   
       document.body.appendChild(script);
@@ -26,7 +27,7 @@ function App() {
 
   return (
     <>
-    <ScriptTag type="text/javascript" src="./js/script.js" />
+    <ScriptTag type="text/javascript" src="./js/script.jsx" />
     <Provider>
       <Paths />
     </Provider>

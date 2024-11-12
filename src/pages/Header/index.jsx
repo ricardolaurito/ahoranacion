@@ -1,8 +1,8 @@
 
-import Logo from '../../svg/blog-favicon.png';
+import Logo from '../../svg/favicon.png';
 import { Link, useNavigate } from 'react-router-dom';
 import Context from 'pages/Context';
-import { useState, useContext, useEffect } from 'react';
+import { useState, useContext } from 'react';
 
 import api from 'services/api';
 

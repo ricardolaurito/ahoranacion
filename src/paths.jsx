@@ -7,11 +7,11 @@ import Login from './pages/Login';
 import Profile from './pages/Profile';
 import Post from './pages/Post';
 import NotFound from './pages/NotFound';
-import Search from 'pages/Search';
+import Search from './pages/Search';
 
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
-import Context from 'pages/Context';
+import Context from './pages/Context';
 import { useContext } from 'react';
 
 

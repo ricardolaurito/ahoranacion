@@ -20,4 +20,4 @@ bx.addEventListener('click', () =>{
     console.log('Clicou no bx');
 })
 
-console.log('tá lendo o script.js');
+console.log('tá lendo o script.jsx');
